@@ -1,13 +1,13 @@
 /* common shared style */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-primary{
-   color: #FD6E0A; 
+.text-primary {
+    color: #FD6E0A;
 }
 
-.button-primary{
+.button-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -17,32 +17,49 @@ body{
     padding: 15px 35px;
 }
 
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+}
+
+.section-description {
+
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
 /* nav related styles */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
 
-.website-title{
-color: #181818;
-font-size: 45px;
-font-weight: 800;
+.website-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 50px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #474747;
 }
@@ -50,45 +67,55 @@ nav a{
 
 /* Header related style */
 
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner-content{
+.banner-content {
     max-width: 500px;
 }
 
 /* banner img */
 
-.banner .profile-picture{
+.banner .profile-picture {
     width: 400px;
 }
 
-.banner-greeting{
+.banner-greeting {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
 }
 
-.banner-title{
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 
-.banner-p{
+.banner-p {
     margin-top: 30px;
 }
 
 /* MAIN SECTION STYLES */
+
+
+/* ABOUT SECTION STYLES */
+
+.about {
+    padding: 131px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
