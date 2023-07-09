@@ -200,3 +200,12 @@ main section {
 .download-cv{
     text-align: center;margin: 50px;
 }
+
+/* footer styles */
+
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 200px;
+}
